@@ -1,7 +1,7 @@
-#🌐 CVE-2024-4577 PoC Exploit
+🌐 CVE-2024-4577 PoC Exploit
 Welcome to the CVE-2024-4577 PoC Exploit repository! This project is a demonstration of a Proof of Concept (PoC) exploit that leverages a vulnerability in certain PHP versions to execute arbitrary commands on vulnerable targets. Crafted with precision, this tool is an invaluable asset for security researchers and penetration testers aiming to assess the impact of CVE-2024-4577 in real-world scenarios.
 
-##✨ Features
+✨ Features
 This exploit showcases several key capabilities:
 
 1.
@@ -15,7 +15,7 @@ Allows for precise targeting of vulnerable systems by providing a list of target
 Enables the execution of custom PHP code on the target system, providing flexibility in the type of payloads that can be delivered.
 
 
-##🎯 Versions Vulnerable
+🎯 Versions Vulnerable
 The exploit targets specific versions of PHP that are susceptible to this vulnerability:
 
 PHP 8.3 < 8.3.8
@@ -23,13 +23,13 @@ PHP 8.2 < 8.2.20
 PHP 8.1 < 8.1.29
 
 
-##🛠 Installation & Usage
+🛠 Installation & Usage
 Prerequisites
 Ensure libcurl development package is installed on your system.
 A C++ compiler (e.g., g++) is required to compile the exploit code.
 
 
-##Steps
+Steps
 1.
 Install libcurl:
 For Ubuntu: sudo apt-get install libcurl4-openssl-dev
@@ -43,12 +43,12 @@ Execute the compiled binary with the target list and custom PHP payload:
 ./exploit --target-list targets.txt -c "<?php system('calc')?>"
 
 
-##🖥️ Example Usage
+🖥️ Example Usage
 ./exploit --target-list targets.txt -c "<?php system('id')?>"
 
 This command will attempt to execute the id command on the target systems listed in targets.txt, showcasing the exploit's capability to remotely execute commands.
 
-##🤝 Contributing
+🤝 Contributing
 Contributions to this project are more than welcome! Whether it's improving the exploit's efficiency, expanding its capabilities, or fixing bugs, your input is valuable. Feel free to fork the repository, make your changes, and submit a pull request. Let's work together to enhance this tool's effectiveness and help secure systems worldwide.
 
 📜 License
