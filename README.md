@@ -1,4 +1,4 @@
-**CVE-2024-4577 PoC Exploit**
+CVE-2024-4577 PoC Exploit
 Welcome to the official repository for the CVE-2024-4577 Proof of Concept (PoC) exploit. This project showcases a sophisticated vulnerability exploitation technique that leverages crafted PHP code to execute arbitrary commands on systems vulnerable to CVE-2024-4577.
 
 📜 Description
